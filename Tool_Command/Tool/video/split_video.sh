@@ -1,5 +1,5 @@
-←
-←
+[← Terminal_Index](../../Terminal_Index.md)
+
 #!/bin/bash
 
 SOURCE="/Users/longe/Downloads/悲惨世界.mkv"
