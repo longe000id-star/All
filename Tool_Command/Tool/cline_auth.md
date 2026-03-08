@@ -14,7 +14,9 @@ set -x ALL_PROXY http://proxy.example.com:8080
 set -gx http_proxy http://127.0.0.1:7890
 set -gx https_proxy http://127.0.0.1:7890
 set -gx all_proxy socks5://127.0.0.1:7890
+```
 
 2. 然后就是重新加载fish
+```fish
 exec fish
 ```
