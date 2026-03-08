@@ -1,6 +1,6 @@
-[← Terminal_Index](../Terminal_Index.md)
+# [← Terminal_Index](../Terminal_Index.md)
 
-```fish
+
 #!/usr/bin/env fish
 
 
@@ -42,4 +42,3 @@ echo "├─ 压缩内存     : $compressed_mb MB (Compressed)"
 echo "└─ 文件缓存     : $file_mb MB  (Cached Files)"
 echo "空闲内存        : $free_mb MB"
 echo "=========================================================="
-```
