@@ -1,4 +1,4 @@
-[← AI_Index](../../AI_Index.md) 
+[← AI_Index](AI_Index.md) 
 
 你的目的是：
 

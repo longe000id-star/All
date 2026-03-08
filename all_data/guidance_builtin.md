@@ -1,4 +1,4 @@
-[← AI_Index](../../AI_Index.md) 
+[← AI_Index](AI_Index.md) 
 
 # Claude 容器目录结构探索结果
 

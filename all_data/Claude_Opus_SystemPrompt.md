@@ -1,4 +1,4 @@
-[← AI_Index](../../AI_Index.md) 
+[← AI_Index](./AI_Index.md)
 
 # Anthropic’s Claude Opus 4.5 System Prompt – as of January 2026  
 Anthropic 的 Claude Opus 4.5 系统提示——截至 2026 年 1 月

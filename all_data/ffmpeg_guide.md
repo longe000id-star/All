@@ -1,4 +1,4 @@
-[← Terminal_Index](../../Terminal_Index.md)
+[← Terminal_Index](Terminal_Index.md)
 
 
 # ffmpeg 视频处理操作指南 (Fish Shell 版)

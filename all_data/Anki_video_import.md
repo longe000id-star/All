@@ -1,4 +1,4 @@
-[← Script_Index](../../Script_Index.md) 
+[← Script_Index](./Script_Index.md) 
 # Anki 视频导入指南
 
 ## 前提准备

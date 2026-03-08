@@ -1,13 +1,10 @@
 # Index
 
-[](./)
-
-[EMaterials](./EMaterials) ｜ [Tool_Command](./Tool_Command) ｜ [projects](./projects)
+[EMaterials](./EMaterials) ｜ [projects](./projects)
 
 ---
-
-[Tool_Command](./Tool_Command)
-- [AI_Index](./Tool_Command/AI_Index.md)  |  [Script_Index](./Tool_Command/Script_Index.md)  |  [Terminal_Index](./Tool_Command/Terminal_Index.md) |
+##### Tool_Command
+[AI_Index](AI_Index.md)  |  [Script_Index](Script_Index.md)  |  [Terminal_Index](Terminal_Index.md) |
 
 
 
