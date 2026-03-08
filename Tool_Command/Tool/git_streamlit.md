@@ -1,5 +1,5 @@
-←
-←
+[← Terminal_Index](../Terminal_Index.md)
+
 **完整操作手册**
 
 ---
