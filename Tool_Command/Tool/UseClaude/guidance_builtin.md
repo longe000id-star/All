@@ -1,5 +1,5 @@
-←
-←
+[← AI_Index](../../AI_Index.md) 
+
 # Claude 容器目录结构探索结果
 
 ## /mnt 目录结构
