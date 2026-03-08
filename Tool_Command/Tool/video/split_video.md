@@ -1,15 +1,14 @@
 [← Terminal_Index](../../Terminal_Index.md)
 
-我说的是这个：：：我说的是这个：
+
+```bash
 #!/bin/bash
 
 SOURCE="/Users/longe/Downloads/悲惨世界.mkv"
-
 MP4="/Users/longe/Downloads/悲惨世界.mp4"
 OUTPUT_DIR="/Users/longe/Downloads/片段"
 SEGMENT=180   # 每段秒数（3分钟=180秒）
 DURATION=8094 # 总时长秒数（2小时14分54秒）
-
 
 # 第二步：创建输出文件夹，清理旧片段
 mkdir -p "$OUTPUT_DIR"
@@ -32,3 +31,4 @@ while [ $start -lt $DURATION ]; do
 done
 
 echo "✅ 完成！共切割 $i 个片段，保存在：$OUTPUT_DIR"
+```
