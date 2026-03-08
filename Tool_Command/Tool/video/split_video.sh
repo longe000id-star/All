@@ -1,7 +1,5 @@
-[← Terminal_Index](../../Terminal_Index.md)
+# [← Terminal_Index](../../Terminal_Index.md)
 
-
-```bash
 #!/bin/bash
 
 SOURCE="/Users/longe/Downloads/悲惨世界.mkv"
@@ -31,4 +29,4 @@ while [ $start -lt $DURATION ]; do
 done
 
 echo "✅ 完成！共切割 $i 个片段，保存在：$OUTPUT_DIR"
-```
+
