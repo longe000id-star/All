@@ -1,5 +1,5 @@
-←
-←
+[← AI_Index](../../AI_Index.md) 
+
 # Claude 容器目录 & 工具完整指南
 
 ---
