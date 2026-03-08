@@ -1,5 +1,5 @@
 
-[← Terminal_Index](../../Terminal_Index.md)
+[← Terminal_Index](../Terminal_Index.md)
 
 # Terminal 常用操作指南（fish shell）
 
