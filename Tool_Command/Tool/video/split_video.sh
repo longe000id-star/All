@@ -1,4 +1,4 @@
-[← Terminal_Index](../../Terminal_Index.md)
+# [← Terminal_Index](../../Terminal_Index.md)
 
 #!/bin/bash
 
