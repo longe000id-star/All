@@ -1,0 +1,105 @@
+←
+class ArrayOperations
+  attr_reader :array
+  
+  def initialize
+    @array = []  # 初始化空数组
+  end
+
+  # 读取数组中特定索引的元素
+  def read_element(index)
+    if index >= 0 && index < @array.length
+      puts "Element at index #{index}: #{@array[index]}"
+    else
+      puts "Index #{index} is out of bounds."
+    end
+  end
+
+  # 查找数组中某个元素的索引
+  def find_element(element)
+    index = @array.index(element)
+    if index
+      puts "Element '#{element}' found at index #{index}."
+    else
+      puts "Element '#{element}' not found."
+    end
+  end
+
+  # 插入元素到数组指定位置
+  def insert_element(element, index)
+    if index < 0 || index > @array.length
+      puts "Invalid index. Inserting at the end of the array."
+      @array.push(element)
+    else
+      @array.insert(index, element)
+    end
+    puts "Current Array: #{@array}"
+  end
+
+  # 删除数组中的元素
+  def delete_element(element)
+    if @array.include?(element)
+      @array.delete(element)
+      puts "Element '#{element}' removed."
+    else
+      puts "Element '#{element}' not found in the array."
+    end
+    puts "Current Array: #{@array}"
+  end
+end
+
+# 创建 ArrayOperations 对象，保持数组状态
+array_ops = ArrayOperations.new
+
+# 主程序部分，交互式操作数组
+loop do
+  puts "\nChoose an operation (type the number):"
+  puts "1. Read element at a specific index"
+  puts "2. Find an element"
+  puts "3. Insert an element at a specific index"
+  puts "4. Delete an element"
+  puts "5. Show current array"
+  puts "6. Exit"
+
+  choice = gets.chomp.to_i
+
+  case choice
+  when 1
+    # 读取操作
+    puts "Enter index to read:"
+    index = gets.chomp.to_i
+    array_ops.read_element(index)
+
+  when 2
+    # 查找操作
+    puts "Enter element to find:"
+    element = gets.chomp
+    array_ops.find_element(element)
+
+  when 3
+    # 插入操作
+    puts "Enter element to insert:"
+    element = gets.chomp
+    puts "Enter index to insert at:"
+    index = gets.chomp.to_i
+    array_ops.insert_element(element, index)
+
+  when 4
+    # 删除操作
+    puts "Enter element to delete:"
+    element = gets.chomp
+    array_ops.delete_element(element)
+
+  when 5
+    # 查看当前数组
+    puts "Current Array: #{array_ops.array}"
+
+  when 6
+    # 退出
+    puts "Goodbye!"
+    break
+
+  else
+    puts "Invalid choice. Please choose again."
+  end
+end

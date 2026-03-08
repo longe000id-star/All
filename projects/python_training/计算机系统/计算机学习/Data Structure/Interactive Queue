@@ -1,0 +1,48 @@
+←
+# 定义 PrintManager 类
+class PrintManager
+  def initialize
+    @queue = []  # 初始化队列
+    puts "PrintManager Initialized!"  # 输出初始化信息
+  end
+
+  # 将打印任务加入队列
+  def queue_print_job(document)
+    @queue.push(document)  # 将打印任务加入队列
+    puts "#{document} added to the queue."  # 输出添加的文档
+    puts "Current Queue: #{@queue}"  # 输出当前队列状态
+  end
+
+  # 执行打印任务
+  def run
+    while @queue.any?  # 当队列中有任务时
+      puts "Press 'Enter' to print the next document..."
+      gets  # 等待用户按下 Enter 键
+
+      document = @queue.shift  # 从队列中移除并获取第一个任务
+      puts "Printing: #{document}"  # 输出正在打印的文档
+      puts "Remaining documents in the queue: #{@queue.size}"  # 输出剩余队列中的任务数量
+    end
+    puts "No more documents in the queue!"  # 如果队列为空
+  end
+end
+
+# 主程序部分，开始交互
+print_manager = PrintManager.new
+
+# 提示用户输入要排队的文档
+loop do
+  puts "Enter the name of the document to queue:"
+  document = gets.chomp  # 获取用户输入
+
+  print_manager.queue_print_job(document)  # 将文档加入队列
+
+  # 询问用户是否继续添加更多文档
+  puts "Do you want to add another document? (y/n)"
+  answer = gets.chomp.downcase
+
+  break if answer == 'n'  # 如果用户输入 'n'，则结束输入
+end
+
+# 执行打印任务
+print_manager.run

@@ -1,0 +1,34 @@
+←
+from flask import Flask, request
+import time
+
+app = Flask(__name__)
+
+# before_request：记录请求开始时间
+@app.before_request
+def start_timer():
+    request.start_time = time.time()  # 将开始时间附加到 request 对象
+
+# after_request：计算耗时并打印
+@app.after_request
+def log_time(response):
+    # 计算耗时（秒）
+    duration = time.time() - request.start_time
+    print(f"请求 {request.path} 耗时 {duration:.4f} 秒")
+    # 可以添加自定义头，方便前端调试
+    response.headers['X-Process-Time'] = str(duration)
+    return response
+
+# 一个简单的视图函数
+@app.route('/')
+def index():
+    return "<h1>Hello, World!</h1>"
+
+# 另一个视图，故意延迟一下，模拟耗时操作
+@app.route('/slow')
+def slow():
+    time.sleep(1)  # 暂停1秒
+    return "<h1>This was slow</h1>"
+
+if __name__ == '__main__':
+    app.run(debug=True)

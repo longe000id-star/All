@@ -1,0 +1,28 @@
+←
+from flask import Flask, request
+
+app = Flask(__name__)
+
+VALID_TOKEN = "secret123"  # 预设的合法 token
+
+# 需要保护的接口：/api/data
+@app.route('/api/data')
+def api_data():
+    return {"data": "这是敏感数据"}
+
+# before_request 钩子：对所有请求检查 token
+@app.before_request
+def check_token():
+    # 只检查 /api/ 开头的路径（需要保护的接口）
+    if request.path.startswith('/api/'):
+        token = request.args.get('token')  # 从查询参数获取 token
+        if token != VALID_TOKEN:
+            return "Invalid token", 403   # token 错误，直接返回 403
+    # 其他路径（如首页）放行
+
+@app.route('/')
+def index():
+    return "首页，不需要 token"
+
+if __name__ == '__main__':
+    app.run(debug=True)
