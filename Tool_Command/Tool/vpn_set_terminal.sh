@@ -1,5 +1,5 @@
-←
-←
+[← Terminal_Index](../../Terminal_Index.md)
+
 set -x ALL_PROXY socks5://127.0.0.1:9909
 set -x all_proxy socks5://127.0.0.1:9909
 
