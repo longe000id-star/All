@@ -1,7 +1,5 @@
 [← Terminal_Index](../../Terminal_Index.md)
 
-```markdown
-[← Terminal_Index](../../Terminal_Index.md)
 
 # ffmpeg 视频处理操作指南 (Fish Shell 版)
 
@@ -269,4 +267,3 @@ transpose 参数说明：
 | 2倍速 | `ffmpeg -i 输入.mp4 -vf "setpts=0.5*PTS" -af "atempo=2.0" 2x.mp4` |
 | 查看视频信息 | `ffprobe -i 输入.mp4` |
 | 批量转换 (Fish) | `for f in *.avi; ffmpeg -i "$f" (basename "$f" .avi).mp4; end` |
-```
