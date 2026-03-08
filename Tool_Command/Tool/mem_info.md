@@ -1,5 +1,8 @@
-←
+[← Terminal_Index](../Terminal_Index.md)
+
+```fish
 #!/usr/bin/env fish
+
 
 # 获取页面大小（字节）
 set pagesize (vm_stat | grep "page size" | awk '{print $8}')
@@ -39,3 +42,4 @@ echo "├─ 压缩内存     : $compressed_mb MB (Compressed)"
 echo "└─ 文件缓存     : $file_mb MB  (Cached Files)"
 echo "空闲内存        : $free_mb MB"
 echo "=========================================================="
+```
