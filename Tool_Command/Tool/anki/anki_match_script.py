@@ -1,5 +1,7 @@
-←
-←
+"""
+[← Script_Index](../../Script_Index.md)
+"""
+
 #!/usr/bin/env python3
 import os
 import re
