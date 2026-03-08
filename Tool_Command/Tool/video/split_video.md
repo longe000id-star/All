@@ -1,5 +1,6 @@
-# [← Terminal_Index](../../Terminal_Index.md)
+[← Terminal_Index](../../Terminal_Index.md)
 
+我说的是这个：：：我说的是这个：
 #!/bin/bash
 
 SOURCE="/Users/longe/Downloads/悲惨世界.mkv"
