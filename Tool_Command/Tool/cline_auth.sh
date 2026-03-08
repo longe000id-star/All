@@ -1,5 +1,5 @@
-←
-←
+[← Terminal_Index](../Terminal_Index.md)
+
 1. 验证和登录Cline的时候，需要清除和关闭电脑上所有的代理 proxy
 set -x http_proxy http://proxy.example.com:8080
 set -x https_proxy http://proxy.example.com:8080
