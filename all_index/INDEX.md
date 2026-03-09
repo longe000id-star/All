@@ -1,4 +1,4 @@
-###### Go to README.md
+###### Go to [README](./README.md)
 [EMaterials](./EMaterials) ｜ [projects](./projects)
 
 ---
