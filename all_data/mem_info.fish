@@ -1,6 +1,3 @@
-# [← Terminal_Index](../Terminal_Index.md)
-
-
 #!/usr/bin/env fish
 
 

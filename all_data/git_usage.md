@@ -1,4 +1,5 @@
-[← Terminal_Index](Terminal_Index.md)
+
+[← Terminal_Index](../all_index/Terminal_Index.md)
 
 ```fish
 cd ~/Desktop/my-new-project
@@ -35,4 +36,10 @@ git status
 ```
 
 
+
+[← Terminal_Index](../all_index/Terminal_Index.md)
+###### Backup
+```markdown
+[← Terminal_Index](../all_index/Terminal_Index.md)
+```
 

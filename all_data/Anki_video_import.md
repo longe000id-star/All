@@ -1,4 +1,4 @@
-[← Script_Index](./Script_Index.md) 
+[← Script_Index](../all_index/Script_Index.md) 
 # Anki 视频导入指南
 
 ## 前提准备
@@ -237,4 +237,11 @@ mkdir -p 压缩
 for f in 片段/*.mp4; do
   ffmpeg -i "$f" -vf scale=960:-2 -crf 28 -preset fast "压缩/$(basename $f)"
 done
+```
+
+[← Script_Index](../all_index/Script_Index.md) 
+
+###### Backup
+```markdown
+[← Script_Index](../all_index/Script_Index.md) 
 ```

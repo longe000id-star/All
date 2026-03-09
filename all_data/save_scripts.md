@@ -1,4 +1,4 @@
-[← AI_Index](AI_Index.md) 
+[← AI_Index](../all_index/AI_Index.md) 
 
 你的目的是：
 
@@ -21,3 +21,10 @@
 ---
 
 这样以后新开对话粘贴进去就行了。
+
+[← AI_Index](../all_index/AI_Index.md) 
+
+###### Backup
+```markdown
+[← AI_Index](../all_index/AI_Index.md) 
+```

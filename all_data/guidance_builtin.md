@@ -1,4 +1,4 @@
-[← AI_Index](AI_Index.md) 
+[← AI_Index](../all_index/AI_Index.md) 
 
 # Claude 容器目录结构探索结果
 
@@ -575,3 +575,10 @@ test_code.py
 - **WHAT**: 本次对话生成的测试脚本
 - **DO WHAT**: 之前用来测试你的 Python bisection 代码的被测文件
 - **HOW**: 对话结束后自动清空，正式文件应放在 outputs/
+
+[← AI_Index](../all_index/AI_Index.md) 
+
+###### Backup
+```markdown
+[← AI_Index](../all_index/AI_Index.md) 
+```

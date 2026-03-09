@@ -1,5 +1,3 @@
-[← AI_Index](../../AI_Index.md) 
-
 === /mnt 目录结构 ===
 /mnt
 /mnt/skills

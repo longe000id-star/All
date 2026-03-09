@@ -1,4 +1,4 @@
-[← AI_Index](AI_Index.md) 
+[← AI_Index](../all_index/AI_Index.md) 
 
 # Claude 容器目录结构探索结果
 
@@ -92,4 +92,12 @@ drwxr-xr-x 5 root root   74 Feb 18 19:59 .npm-global
 -rw-r--r-- 1 root root   74 Feb 18 19:57 .npmrc
 -rw-r--r-- 1 root root  215 Feb 18 19:57 .wget-hsts
 -rw-r--r-- 1 root root 1602 Mar  8 16:00 test_code.py
+```
+
+
+[← AI_Index](../all_index/AI_Index.md) 
+
+###### Backup
+```markdown
+[← AI_Index](../all_index/AI_Index.md) 
 ```

@@ -1,5 +1,5 @@
 
-[← Terminal_Index](Terminal_Index.md)
+[← Terminal_Index](../all_index/Terminal_Index.md)
 
 # Terminal 常用操作指南（fish shell）
 
@@ -147,3 +147,11 @@ Finder → 菜单栏「前往」→「前往文件夹」→ 粘贴路径：
 ```
 ~/Library/Application Support/Anki2/Lorie/collection.media
 ```
+
+[← Terminal_Index](../all_index/Terminal_Index.md)
+
+###### Backup
+```markdown
+[← Terminal_Index](../all_index/Terminal_Index.md)
+```
+

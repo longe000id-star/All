@@ -1,4 +1,4 @@
-[← AI_Index](AI_Index.md) 
+[← AI_Index](../all_index/AI_Index.md) 
 
 # Claude 容器目录 & 工具完整指南
 
@@ -158,3 +158,11 @@ Claude 默认会主动读取，但加了这句可以强制提醒，确保 Claude
 | API 文档 | https://docs.anthropic.com/en/api/getting-started |
 
 > ⚠️ 注意：`create_file`、`present_files`、`bash_tool` 等工具是 Claude.ai 内部实现，Anthropic 没有对外公开这些工具的独立文档页面。以上官方链接是最接近的参考资源。
+
+
+[← AI_Index](../all_index/AI_Index.md) 
+
+###### Backup
+```markdown
+[← AI_Index](../all_index/AI_Index.md) 
+```

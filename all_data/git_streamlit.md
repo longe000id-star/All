@@ -1,4 +1,5 @@
-[← Terminal_Index](Terminal_Index.md)
+
+[← Terminal_Index](../all_index/Terminal_Index.md)
 
 **完整操作手册**
 
@@ -93,4 +94,11 @@ open https://lingua-core.streamlit.app
 open https://github.com/longe000id-star/lingua-core
 open https://share.streamlit.io
 open https://console.groq.com/keys
+```
+
+
+[← Terminal_Index](../all_index/Terminal_Index.md)
+###### Backup
+```markdown
+[← Terminal_Index](../all_index/Terminal_Index.md)
 ```
