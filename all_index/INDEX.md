@@ -1,5 +1,5 @@
-###### Go to [README](./README.md)
-[EMaterials](./EMaterials) ｜ [projects](./projects)
+###### [README](../README.md)
+[EMaterials](../EMaterials) ｜ [projects](../projects)
 
 ---
 ###### Tool_Command
