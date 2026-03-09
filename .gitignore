@@ -1,3 +1,8 @@
 Cline/
-.!51599!.DS_Store 
-.DS_Storei
+
+# macOS system files
+.DS_Store
+.!*!.DS_Store
+**/.DS_Store
+**/.*.DS_Store
+
