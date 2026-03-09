@@ -8,11 +8,11 @@
 ---
 ###### Projects
 
-[Personal Language](../all_index/person_lan.md) | [Python Training](../all_index/python_training.md) | 
+[Personal Language](../all_index/person_lang_index.md) | [Python Training](../all_index/python_training_index.md) | 
 
 ----
 ###### EMaterials
-[Ebook](../all_index/ebook.md) | [Exam](../all_index/exam.md) | 
+[Ebook](../all_index/ebook_index.md) | [Exam](../all_index/exam_index.md) | 
 
 
 
