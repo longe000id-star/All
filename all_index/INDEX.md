@@ -8,5 +8,8 @@
 
 ###### Backup
 ```markdown
+[README](../README.md)
+[EMaterials](../EMaterials) ｜ [projects](../projects)
+
 [AI_Index](../all_index/AI_Index.md) | [Script_Index](../all_index/Script_Index.md) | [Terminal_Index](../all_index/Terminal_Index.md)
 ```
