@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - oup-modern-large
+---
+
 [← AI_Index](../all_index/AI_Index.md) 
 
 # Anthropic’s Claude Opus 4.5 System Prompt – as of January 2026  

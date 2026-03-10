@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - oup-modern-large
+---
+
 ←
 ←
 

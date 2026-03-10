@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - oup-modern-large
+---
+
 [← Script_Index](../all_index/Script_Index.md) 
 # Anki 视频导入指南
 

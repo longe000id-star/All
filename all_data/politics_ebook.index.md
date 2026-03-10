@@ -1,1 +1,6 @@
+---
+cssclasses:
+  - oup-modern-large
+---
+
 [Federalist Papers](../all_data/federalist_papers_en.pdf) | [联邦党人文集](../all_data/federalist_papers_cn.pdf) ｜ 

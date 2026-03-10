@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - oup-modern-large
+---
+
 ←
 ←
 # 理论知识课件生成配置

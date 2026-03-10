@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - oup-modern-large
+---
+
 ←
 ←
 > 我突然摸索出一个道理：学习 programming，其实就跟学习自然语言一样，只不过存在于不同的维度。两者的共同点在于，programming 的 syntax 对应自然语言的 grammar，而自然语言中的表达与逻辑推理，对应的则是 programming 中的 algorithms。而 algorithms 最终归于 0 和 1，因此其本质是纯数学的逻辑思维。
